@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+dist/
+*.o
+*.bin
+*.iso
+
+# Backup and temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+*.pid
+.env
+.docker/
+docker-compose.override.yml
+
+# VSCode / IDE configs (optional, keep if you want)
+.vscode/
+.idea/
+*.iml
+
+# Python virtual env (if used for tooling)
+venv/
+__pycache__/
+*.pyc
+
+# System junk
+*.out
